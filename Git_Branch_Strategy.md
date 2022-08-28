@@ -6,10 +6,6 @@
 
 ![](https://wac-cdn.atlassian.com/dam/jcr:61ccc620-5249-4338-be66-94d563f2843c/05%20(2).svg?cdnVersion=696)
 
-## Git Repository 구성
-
-![](https://techblog.woowahan.com/wp-content/uploads/img/2017-10-30/github-flow_repository_structure.png)
-
 - Git Flow
   - 항상 존재하는 메인(=중심) 브랜치: main, develop
   - 필요에 따라 생성하는 브랜치: feature, hotfix, release
@@ -38,6 +34,10 @@
       - QA 진행하면서 발생한 버그는 release 브랜치에서 수정함
       - QA 무사히 끝나면 release 브랜치를 main과 develop 브랜치로 merge
       - merge 끝나면 삭제
+
+## Git Repository 구성
+
+![](https://techblog.woowahan.com/wp-content/uploads/img/2017-10-30/github-flow_repository_structure.png)
 
 ## GitHub 브랜치 전략
 
