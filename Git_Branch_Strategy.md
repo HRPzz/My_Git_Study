@@ -1,6 +1,6 @@
 # Git 브랜치 전략
 
-## Git 브랜치 전략 사진
+## Git 브랜치 전략
 
 ![](https://techblog.woowahan.com/wp-content/uploads/img/2017-10-30/git-flow_overall_graph.png)
 
@@ -35,7 +35,7 @@
       - QA 무사히 끝나면 release 브랜치를 main과 develop 브랜치로 merge
       - merge 끝나면 삭제
 
-## Git Repository 구성
+## Git 브랜치 전략 - Repository 구성
 
 ![](https://techblog.woowahan.com/wp-content/uploads/img/2017-10-30/github-flow_repository_structure.png)
 
