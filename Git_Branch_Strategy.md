@@ -1,20 +1,12 @@
 # Git 브랜치 전략
 
-- 참고 링크
-  - [우아한 형제들 기술 블로그](https://techblog.woowahan.com/2553/)
-  - [협업을 위한 Git Flow 설정하기](https://overcome-the-limits.tistory.com/7)
-  - [Git Branch Strategy(깃 브랜치 전략)](https://velog.io/@rafael/Git-Branch-Strategy%EA%B9%83-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)
-  - [Git 브랜치 전략](https://velog.io/@jinuku/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)
-
-## Git 브랜치 전략
-
-### Git 브랜치 전략 사진
+## Git 브랜치 전략 사진
 
 ![](https://techblog.woowahan.com/wp-content/uploads/img/2017-10-30/git-flow_overall_graph.png)
 
 ![](https://wac-cdn.atlassian.com/dam/jcr:61ccc620-5249-4338-be66-94d563f2843c/05%20(2).svg?cdnVersion=696)
 
-### Git Repository 구성
+## Git Repository 구성
 
 ![](https://techblog.woowahan.com/wp-content/uploads/img/2017-10-30/github-flow_repository_structure.png)
 
@@ -55,3 +47,10 @@
   - Git Flow 에 비해 간단함
   - Main 브랜치를 Release 브랜치로 사용
   - 나머지 브랜치는 Pull Request 하여 사용함
+
+## 참고 링크
+
+- [우아한 형제들 기술 블로그](https://techblog.woowahan.com/2553/)
+- [협업을 위한 Git Flow 설정하기](https://overcome-the-limits.tistory.com/7)
+- [Git Branch Strategy(깃 브랜치 전략)](https://velog.io/@rafael/Git-Branch-Strategy%EA%B9%83-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)
+- [Git 브랜치 전략](https://velog.io/@jinuku/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)
