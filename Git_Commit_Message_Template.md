@@ -1,6 +1,8 @@
 # Git 커밋 메시지 템플릿
 
-여러 레퍼런스 참고해서 나만의 커밋 메시지 템플릿 완성
+여러 레퍼런스 참고해서 [나만의 커밋 메시지 템플릿][my_commit_msg_template] 완성
+
+[my_commit_msg_template]: https://github.com/HRPzz/My_Git_Study/blob/main/.gitmessage.txt
 
 ```text
 #######################################################
@@ -19,7 +21,7 @@
 
 # ------- 꼬리말(FOOTER) -------
 # |<---  (선택) <키워드> #<이슈 번호> | (선택) 주요 변경 내역(Breaking Changes)  --->|
-# (예) Closes #7, #35
+# (예) Closes #7, #35 | (예) Resolve #11
 
 
 #######################################################
