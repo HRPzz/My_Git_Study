@@ -1,6 +1,29 @@
 # Git 브랜치 전략
 
-## Git 브랜치 전략
+## Git 브랜치 전략 - 기초
+
+### Feature-Branch 전략
+
+#### Main Branch
+
+- 배포 브랜치
+- 서비스 출시 전까지 건드릴 일 없음
+- 직접적인 push 불가
+
+#### Develop Branch
+
+- 개발병합 브랜치: 기능이 개발된 브랜치를 병합하여 배포하기 위한 브랜치
+- 팀원이 만든 기능은 Develop 브랜치로만 merge 함
+
+#### Feature Branch
+
+- 기능개발 브랜치: 개발자 로컬 저장소에서 관리, 새로운 기능을 구현하는 브랜치
+- 작업 사이클
+  - 브랜치명 Feat/<기능_이름> 으로 생성
+  - 작업 이후 원격 저장소로 push -> develop 브랜치로 PR 및 merge -> Remote Feature 브랜치 삭제 -> Local Feature 브랜치 삭제
+- 이후 다른 기능 개발 시 앞의 내용 반복
+
+## Git 브랜치 전략 - 심화
 
 ![](https://techblog.woowahan.com/wp-content/uploads/img/2017-10-30/git-flow_overall_graph.png)
 
