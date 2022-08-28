@@ -7,8 +7,8 @@
 #### Main Branch
 
 - 배포 브랜치
-- 서비스 출시 전까지 건드릴 일 없음
 - 직접적인 push 불가
+- 서비스 출시 전까지 건드릴 일 없음 => 서비스 출시하려면 main 브랜치로 PR 및 merge
 
 #### Develop Branch
 
@@ -21,7 +21,7 @@
 - 작업 사이클
   - 브랜치명 Feat/<기능_이름> 으로 생성
   - 작업 이후 원격 저장소로 push -> develop 브랜치로 PR 및 merge -> Remote Feature 브랜치 삭제 -> Local Feature 브랜치 삭제
-- 이후 다른 기능 개발 시 앞의 내용 반복
+- 이후 다른 기능 개발 시 앞의 내용(작업 사이클) 반복
 
 ## Git 브랜치 전략 - 심화
 
@@ -73,6 +73,7 @@
 
 ## 참고 링크
 
+- [깃&깃헙 브랜치 3개로 협업하기(주니어개발자 팀프로젝트)](https://youtu.be/qJOfzcMG_hs)
 - [우아한 형제들 기술 블로그](https://techblog.woowahan.com/2553/)
 - [협업을 위한 Git Flow 설정하기](https://overcome-the-limits.tistory.com/7)
 - [Git Branch Strategy(깃 브랜치 전략)](https://velog.io/@rafael/Git-Branch-Strategy%EA%B9%83-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)
